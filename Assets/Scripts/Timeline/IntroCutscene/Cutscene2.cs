@@ -15,7 +15,7 @@ public class Cutscene2 : MonoBehaviour
 
     public void IntroLine1()
     {
-        dialogue.ShowBubble(0, "Hey, you stop!!");
+        dialogue.ShowBubble(0, "You", "Hey, you stop!!");
     }
 
     public void IntroLine2()
@@ -25,7 +25,7 @@ public class Cutscene2 : MonoBehaviour
 
     public void IntroLine3()
     {
-        dialogue.ShowBubble(1, "Ehhh, please help me sir, they tried to rob my goods");
+        dialogue.ShowBubble(1, "Stranger", "Ehhh, please help me sir, they tried to rob my goods");
         slime1.FaceLeft();
         slime2.FaceLeft();
     }
@@ -33,7 +33,7 @@ public class Cutscene2 : MonoBehaviour
     public void IntroLine4()
     {
         dialogue.HideBubble(1);
-        dialogue.ShowBubble(0, "Don't worry, i will protect you, stay back");
+        dialogue.ShowBubble(0, "You", "Don't worry, i will protect you, stay back");
     }
 
     public void IntroLine5()

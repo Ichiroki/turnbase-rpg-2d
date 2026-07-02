@@ -10,6 +10,9 @@ MemoryCaptures/
 
 Assets/AssetStoreTools*
 
+ignore.conf
+
+.plastic
 .vs/
 .idea/
 *.csproj

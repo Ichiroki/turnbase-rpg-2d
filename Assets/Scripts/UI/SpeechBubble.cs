@@ -4,15 +4,17 @@ using TMPro;
 public class SpeechBubble : MonoBehaviour
 {
     public TMP_Text dialogueText;
+    public TMP_Text nameText;
 
-    public void Say(string text)
+    public void Say(string name, string text)
     {
         Show();
-        SetText(text);
+        SetText(name, text);
     }
 
-    public void SetText(string text)
+    public void SetText(string name, string text)
     {
+        nameText.text = name;
         dialogueText.text = text;
     }
 
